@@ -6,4 +6,6 @@ import com.example.myretrofit.ui.data.ResultData
 
 class MainViewModel :ViewModel() {
     var listOfQuotes = mutableStateOf(mutableListOf<ResultData>())
+    var quote = mutableStateOf("")
+    var resultData = mutableStateOf( ResultData())
 }
